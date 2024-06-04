@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from './components/Headers.js';
 import './index.css';
 import MainContent from './components/MainContents.js';
 import Footer from './components/Footer.js';
 import reportWebVitals from './reportWebVitals';
+import Navbar from './components/Headers.js';
 
 
 function Pages(){
   return(
     <>
-    <Header/>
+    <Navbar/>
     <MainContent/>
     <Footer/>
     </>

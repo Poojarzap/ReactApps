@@ -1,19 +1,21 @@
+import React from "react";
+import image from '../main_icon.png';
 function MainContent() {
     return (
-      <>
-      <h1>Fun Facts about React</h1>
+      <main className="main--class">
+      
+      <div className="main--div">
+      <h1 className="main--title">Fun facts about React</h1>
   
-        <p>
-          <ol className="content">
+          <ul className="main--content">
             <li>Started from 2013</li>
             <li>Maintained by Facebook</li>
             <li>More likely to get job, if 1 knows React</li>
-          </ol>
-        </p>
-        <footer className='footer-style'>
-          <small>@2023 Pooja authorized. All rights reserved</small>
-        </footer>
-      </>
+          </ul>
+          </div>
+        </main>
+  
+      
     )
   }
 
